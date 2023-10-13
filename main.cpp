@@ -34,17 +34,25 @@ int main(int argc, char *argv[])
                 f.DrawAsteroid(static_cast<int>(a.GetX()), static_cast<int>(a.GetY()), static_cast<int>(a.GetSize()));
 
                 // Déplacez les missiles et supprimez ceux qui sortent de l'écran
-                for (auto it = missiles.begin(); it != missiles.end();)
+                for (std::vector<Missile *>::iterator it = missiles.begin(); it != missiles.end();)
                 {
                         if ((*it)->move(f.GetScreenWidth(), f.GetScreenHeight()))
                         {
-                                // Le missile est sorti de l'écran, libérez la mémoire et supprimez-le du vecteur
+                                // Le missile est sorti de l'écran =libérez la mémoire et supprimez-le du vecteur
                                 delete *it;
                                 it = missiles.erase(it);
+                                std::cout << "supprimé" << std::endl;
+                        }
+                        else if ((*it)->Collide(it, a))
+                        {
+                                delete *it;
+                                it = missiles.erase(it);
+                                std::cout << "supprimé" << std::endl;
+                                delete &a;
                         }
                         else
                         {
-                                // Le missile est toujours à l'écran, affichez-le
+                                // Le missile est toujours à l'écran
                                 f.DrawMissile(static_cast<int>((*it)->GetX()), static_cast<int>((*it)->GetY()), static_cast<int>((*it)->GetSize()));
                                 ++it;
                         }
