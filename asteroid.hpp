@@ -14,7 +14,7 @@ public:
     double GetxSpeed();
     double GetySpeed();
 
-    //////////
+    ///////////
     // Setters
     void SetxSpeed(double xSpeed);
     void SetySpeed(double ySpeed);
