@@ -98,23 +98,74 @@ CMakeFiles/SDLTEST.dir/framework.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SDLTEST.dir/framework.cpp.s"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\berth\OneDrive - Efrei\cours\Programmation C C++\projet\cpp-rs-group-2-berthaud\projet\projetWindows\framework.cpp" -o CMakeFiles\SDLTEST.dir\framework.cpp.s
 
+CMakeFiles/SDLTEST.dir/asteroid.cpp.obj: CMakeFiles/SDLTEST.dir/flags.make
+CMakeFiles/SDLTEST.dir/asteroid.cpp.obj: CMakeFiles/SDLTEST.dir/includes_CXX.rsp
+CMakeFiles/SDLTEST.dir/asteroid.cpp.obj: C:/Users/berth/OneDrive\ -\ Efrei/cours/Programmation\ C\ C++/projet/cpp-rs-group-2-berthaud/projet/projetWindows/asteroid.cpp
+CMakeFiles/SDLTEST.dir/asteroid.cpp.obj: CMakeFiles/SDLTEST.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\berth\OneDrive - Efrei\cours\Programmation C C++\projet\cpp-rs-group-2-berthaud\projet\projetWindows\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SDLTEST.dir/asteroid.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SDLTEST.dir/asteroid.cpp.obj -MF CMakeFiles\SDLTEST.dir\asteroid.cpp.obj.d -o CMakeFiles\SDLTEST.dir\asteroid.cpp.obj -c "C:\Users\berth\OneDrive - Efrei\cours\Programmation C C++\projet\cpp-rs-group-2-berthaud\projet\projetWindows\asteroid.cpp"
+
+CMakeFiles/SDLTEST.dir/asteroid.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SDLTEST.dir/asteroid.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\berth\OneDrive - Efrei\cours\Programmation C C++\projet\cpp-rs-group-2-berthaud\projet\projetWindows\asteroid.cpp" > CMakeFiles\SDLTEST.dir\asteroid.cpp.i
+
+CMakeFiles/SDLTEST.dir/asteroid.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SDLTEST.dir/asteroid.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\berth\OneDrive - Efrei\cours\Programmation C C++\projet\cpp-rs-group-2-berthaud\projet\projetWindows\asteroid.cpp" -o CMakeFiles\SDLTEST.dir\asteroid.cpp.s
+
+CMakeFiles/SDLTEST.dir/missile.cpp.obj: CMakeFiles/SDLTEST.dir/flags.make
+CMakeFiles/SDLTEST.dir/missile.cpp.obj: CMakeFiles/SDLTEST.dir/includes_CXX.rsp
+CMakeFiles/SDLTEST.dir/missile.cpp.obj: C:/Users/berth/OneDrive\ -\ Efrei/cours/Programmation\ C\ C++/projet/cpp-rs-group-2-berthaud/projet/projetWindows/missile.cpp
+CMakeFiles/SDLTEST.dir/missile.cpp.obj: CMakeFiles/SDLTEST.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\berth\OneDrive - Efrei\cours\Programmation C C++\projet\cpp-rs-group-2-berthaud\projet\projetWindows\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SDLTEST.dir/missile.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SDLTEST.dir/missile.cpp.obj -MF CMakeFiles\SDLTEST.dir\missile.cpp.obj.d -o CMakeFiles\SDLTEST.dir\missile.cpp.obj -c "C:\Users\berth\OneDrive - Efrei\cours\Programmation C C++\projet\cpp-rs-group-2-berthaud\projet\projetWindows\missile.cpp"
+
+CMakeFiles/SDLTEST.dir/missile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SDLTEST.dir/missile.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\berth\OneDrive - Efrei\cours\Programmation C C++\projet\cpp-rs-group-2-berthaud\projet\projetWindows\missile.cpp" > CMakeFiles\SDLTEST.dir\missile.cpp.i
+
+CMakeFiles/SDLTEST.dir/missile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SDLTEST.dir/missile.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\berth\OneDrive - Efrei\cours\Programmation C C++\projet\cpp-rs-group-2-berthaud\projet\projetWindows\missile.cpp" -o CMakeFiles\SDLTEST.dir\missile.cpp.s
+
+CMakeFiles/SDLTEST.dir/flyingObject.cpp.obj: CMakeFiles/SDLTEST.dir/flags.make
+CMakeFiles/SDLTEST.dir/flyingObject.cpp.obj: CMakeFiles/SDLTEST.dir/includes_CXX.rsp
+CMakeFiles/SDLTEST.dir/flyingObject.cpp.obj: C:/Users/berth/OneDrive\ -\ Efrei/cours/Programmation\ C\ C++/projet/cpp-rs-group-2-berthaud/projet/projetWindows/flyingObject.cpp
+CMakeFiles/SDLTEST.dir/flyingObject.cpp.obj: CMakeFiles/SDLTEST.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\berth\OneDrive - Efrei\cours\Programmation C C++\projet\cpp-rs-group-2-berthaud\projet\projetWindows\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SDLTEST.dir/flyingObject.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SDLTEST.dir/flyingObject.cpp.obj -MF CMakeFiles\SDLTEST.dir\flyingObject.cpp.obj.d -o CMakeFiles\SDLTEST.dir\flyingObject.cpp.obj -c "C:\Users\berth\OneDrive - Efrei\cours\Programmation C C++\projet\cpp-rs-group-2-berthaud\projet\projetWindows\flyingObject.cpp"
+
+CMakeFiles/SDLTEST.dir/flyingObject.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SDLTEST.dir/flyingObject.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\berth\OneDrive - Efrei\cours\Programmation C C++\projet\cpp-rs-group-2-berthaud\projet\projetWindows\flyingObject.cpp" > CMakeFiles\SDLTEST.dir\flyingObject.cpp.i
+
+CMakeFiles/SDLTEST.dir/flyingObject.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SDLTEST.dir/flyingObject.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\berth\OneDrive - Efrei\cours\Programmation C C++\projet\cpp-rs-group-2-berthaud\projet\projetWindows\flyingObject.cpp" -o CMakeFiles\SDLTEST.dir\flyingObject.cpp.s
+
 # Object files for target SDLTEST
 SDLTEST_OBJECTS = \
 "CMakeFiles/SDLTEST.dir/main.cpp.obj" \
-"CMakeFiles/SDLTEST.dir/framework.cpp.obj"
+"CMakeFiles/SDLTEST.dir/framework.cpp.obj" \
+"CMakeFiles/SDLTEST.dir/asteroid.cpp.obj" \
+"CMakeFiles/SDLTEST.dir/missile.cpp.obj" \
+"CMakeFiles/SDLTEST.dir/flyingObject.cpp.obj"
 
 # External object files for target SDLTEST
 SDLTEST_EXTERNAL_OBJECTS =
 
 SDLTEST.exe: CMakeFiles/SDLTEST.dir/main.cpp.obj
 SDLTEST.exe: CMakeFiles/SDLTEST.dir/framework.cpp.obj
+SDLTEST.exe: CMakeFiles/SDLTEST.dir/asteroid.cpp.obj
+SDLTEST.exe: CMakeFiles/SDLTEST.dir/missile.cpp.obj
+SDLTEST.exe: CMakeFiles/SDLTEST.dir/flyingObject.cpp.obj
 SDLTEST.exe: CMakeFiles/SDLTEST.dir/build.make
 SDLTEST.exe: C:/Users/berth/OneDrive\ -\ Efrei/cours/Programmation\ C\ C++/projet/cpp-rs-group-2-berthaud/projet/projetWindows/lib/libSDL2main.a
 SDLTEST.exe: C:/Users/berth/OneDrive\ -\ Efrei/cours/Programmation\ C\ C++/projet/cpp-rs-group-2-berthaud/projet/projetWindows/lib/libSDL2.dll.a
 SDLTEST.exe: CMakeFiles/SDLTEST.dir/linkLibs.rsp
 SDLTEST.exe: CMakeFiles/SDLTEST.dir/objects1.rsp
 SDLTEST.exe: CMakeFiles/SDLTEST.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\berth\OneDrive - Efrei\cours\Programmation C C++\projet\cpp-rs-group-2-berthaud\projet\projetWindows\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable SDLTEST.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\berth\OneDrive - Efrei\cours\Programmation C C++\projet\cpp-rs-group-2-berthaud\projet\projetWindows\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable SDLTEST.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\SDLTEST.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -10,11 +10,17 @@ set(
     SRCS
     main.cpp
     framework.cpp
+    asteroid.cpp
+    missile.cpp
+    flyingObject.cpp
 )
 
 set(
     HEADER
     framework.hpp
+    asteroid.hpp
+    missile.hpp
+    flyingObject.hpp
 )
 
 find_package(SDL2 REQUIRED)

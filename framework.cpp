@@ -162,9 +162,9 @@ void Framework::DrawAsteroid(int x, int y, int size)
 // Le sprite est dans "missile.bmp"
 // --------
 // * x, y : coordonnées du centre du missile, en pixels
-void Framework::DrawMissile(int x, int y)
+void Framework::DrawMissile(int x, int y, int size)
 {
-    DrawSprite(textureMissile, x, y, missileSize, missileSize, 0.0);
+    DrawSprite(textureMissile, x, y, size, size, 0.0);
 }
 
 //////////////////////

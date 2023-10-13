@@ -128,6 +128,54 @@ SDLTEST/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SDLTEST.dir\build.make CMakeFiles/SDLTEST.dir/build
 .PHONY : SDLTEST/fast
 
+asteroid.obj: asteroid.cpp.obj
+.PHONY : asteroid.obj
+
+# target to build an object file
+asteroid.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SDLTEST.dir\build.make CMakeFiles/SDLTEST.dir/asteroid.cpp.obj
+.PHONY : asteroid.cpp.obj
+
+asteroid.i: asteroid.cpp.i
+.PHONY : asteroid.i
+
+# target to preprocess a source file
+asteroid.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SDLTEST.dir\build.make CMakeFiles/SDLTEST.dir/asteroid.cpp.i
+.PHONY : asteroid.cpp.i
+
+asteroid.s: asteroid.cpp.s
+.PHONY : asteroid.s
+
+# target to generate assembly for a file
+asteroid.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SDLTEST.dir\build.make CMakeFiles/SDLTEST.dir/asteroid.cpp.s
+.PHONY : asteroid.cpp.s
+
+flyingObject.obj: flyingObject.cpp.obj
+.PHONY : flyingObject.obj
+
+# target to build an object file
+flyingObject.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SDLTEST.dir\build.make CMakeFiles/SDLTEST.dir/flyingObject.cpp.obj
+.PHONY : flyingObject.cpp.obj
+
+flyingObject.i: flyingObject.cpp.i
+.PHONY : flyingObject.i
+
+# target to preprocess a source file
+flyingObject.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SDLTEST.dir\build.make CMakeFiles/SDLTEST.dir/flyingObject.cpp.i
+.PHONY : flyingObject.cpp.i
+
+flyingObject.s: flyingObject.cpp.s
+.PHONY : flyingObject.s
+
+# target to generate assembly for a file
+flyingObject.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SDLTEST.dir\build.make CMakeFiles/SDLTEST.dir/flyingObject.cpp.s
+.PHONY : flyingObject.cpp.s
+
 framework.obj: framework.cpp.obj
 .PHONY : framework.obj
 
@@ -176,6 +224,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SDLTEST.dir\build.make CMakeFiles/SDLTEST.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+missile.obj: missile.cpp.obj
+.PHONY : missile.obj
+
+# target to build an object file
+missile.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SDLTEST.dir\build.make CMakeFiles/SDLTEST.dir/missile.cpp.obj
+.PHONY : missile.cpp.obj
+
+missile.i: missile.cpp.i
+.PHONY : missile.i
+
+# target to preprocess a source file
+missile.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SDLTEST.dir\build.make CMakeFiles/SDLTEST.dir/missile.cpp.i
+.PHONY : missile.cpp.i
+
+missile.s: missile.cpp.s
+.PHONY : missile.s
+
+# target to generate assembly for a file
+missile.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SDLTEST.dir\build.make CMakeFiles/SDLTEST.dir/missile.cpp.s
+.PHONY : missile.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -185,12 +257,21 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... SDLTEST
+	@echo ... asteroid.obj
+	@echo ... asteroid.i
+	@echo ... asteroid.s
+	@echo ... flyingObject.obj
+	@echo ... flyingObject.i
+	@echo ... flyingObject.s
 	@echo ... framework.obj
 	@echo ... framework.i
 	@echo ... framework.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... missile.obj
+	@echo ... missile.i
+	@echo ... missile.s
 .PHONY : help
 
 
