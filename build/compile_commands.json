@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/Users/berth/OneDrive - Efrei/cours/Programmation C C++/projet/cpp-rs-group-2-berthaud/projet/projetWindows/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/SDLTEST.dir/includes_CXX.rsp -g -o CMakeFiles\\SDLTEST.dir\\main.cpp.obj -c \"C:\\Users\\berth\\OneDrive - Efrei\\cours\\Programmation C C++\\projet\\cpp-rs-group-2-berthaud\\projet\\projetWindows\\main.cpp\"",
+  "file": "C:/Users/berth/OneDrive - Efrei/cours/Programmation C C++/projet/cpp-rs-group-2-berthaud/projet/projetWindows/main.cpp",
+  "output": "CMakeFiles/SDLTEST.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/berth/OneDrive - Efrei/cours/Programmation C C++/projet/cpp-rs-group-2-berthaud/projet/projetWindows/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/SDLTEST.dir/includes_CXX.rsp -g -o CMakeFiles\\SDLTEST.dir\\framework.cpp.obj -c \"C:\\Users\\berth\\OneDrive - Efrei\\cours\\Programmation C C++\\projet\\cpp-rs-group-2-berthaud\\projet\\projetWindows\\framework.cpp\"",
+  "file": "C:/Users/berth/OneDrive - Efrei/cours/Programmation C C++/projet/cpp-rs-group-2-berthaud/projet/projetWindows/framework.cpp",
+  "output": "CMakeFiles/SDLTEST.dir/framework.cpp.obj"
+}
+]
