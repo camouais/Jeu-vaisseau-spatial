@@ -10,6 +10,7 @@ Asteroid::Asteroid(double x, double y, double size, double xSpeed, double ySpeed
     SetxSpeed(xSpeed);
     SetySpeed(ySpeed);
 }
+// test
 
 double Asteroid::GetxSpeed() { return xSpeed; }
 double Asteroid::GetySpeed() { return ySpeed; }
